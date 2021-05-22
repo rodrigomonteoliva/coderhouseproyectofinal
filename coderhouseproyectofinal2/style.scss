@@ -1,0 +1,110 @@
+
+
+@import "variables";
+@import "index";
+@import "tienda";
+@import "nosotros";
+@import "contacto";
+@import "compra";
+@import "trabajo";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+   
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    background-color: $color-primario;
+    color: $color-texto;
+}
+main {
+    padding: 6rem;
+}
+header {
+    padding: 1rem;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: .5rem;
+}
+@media (max-width: 480px) {
+    h1 { 
+       font-size: 2rem;
+    }
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+@media (max-width:480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+h4 {
+    font-size: 2rem;
+    text-align: center;
+}
+a  {
+    text-decoration: none;
+    color: $color-blanco;
+    font-size: 2em;
+    padding: 1em;
+}
+ul {
+    list-style: none
+}
+li {
+    padding: 3em;
+}
+
+.logo {
+    width: 15rem;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+}
+@media (max-width: 480px) {
+   .logo {
+    width: 10rem;
+    height: auto;
+   }
+}
+
+.redes-sociales {
+        margin-top: 8rem;
+    ul {
+       display: flex;
+       justify-content: center;
+    }
+    li {
+        padding: 0.5em;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+}
+@media (max-width: 480px) {
+    footer {
+        width: 90%;
+        font-size: 1rem;
+        text-align: center;
+        padding-left: 2rem;
+    }
+}
+

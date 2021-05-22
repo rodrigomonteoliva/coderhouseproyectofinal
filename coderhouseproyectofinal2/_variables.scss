@@ -1,0 +1,17 @@
+$font-family-sans-serif: 'Roboto Mono', monospace;
+
+
+$primary: #C69214;
+$danger: #272727;
+$color-primario: #C69214;
+$color-secundario: #AD841F;
+$color-blanco: #ffffff;
+$color-texto: #272727;
+$color-gris: #757575;
+
+@mixin tamaño {
+    width: 30rem;
+    height: auto;
+    border-radius: 0.5rem;
+    
+}
